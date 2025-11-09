@@ -19,35 +19,6 @@ p {
 .navbar-brand, .nav-link {
   color: #fff !important;
 }
-.hero {
-  background: url('bio.png') center/cover no-repeat;
-  height: 60vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  text-align: center;
-  flex-direction: column;
-  background-blend-mode: multiply;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-.hero h1 {
-  font-size: 3rem;
-  font-weight: bold;
-}
-.hero p {
-  font-size: 1.5rem;
-  margin-bottom: 20px;
-}
-.hero .btn {
-  margin: 5px;
-  padding: 10px 20px;
-  font-size: 1.1rem;
-}
-.card {
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  background-color: #ffffff;
-}
 footer {
   background-color: #283593;
   color: white;
@@ -57,4 +28,10 @@ footer {
 .btn-primary {
   background-color: #6a1b9a;
   border: none;
+}
+pre {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 5px;
+  white-space: pre-wrap;
 }

@@ -3,20 +3,46 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: linear-gradient(to right, #e0f7fa, #e1bee7);
   color: #212529;
+  margin: 0;
+  padding: 0;
 }
-h1 {
+h1, h2 {
   color: #6a1b9a;
-  margin-bottom: 20px;
 }
 p {
   font-size: 1.1rem;
 }
 .navbar {
-  margin-bottom: 30px;
+  margin-bottom: 0;
   background: linear-gradient(to right, #6a1b9a, #283593);
 }
 .navbar-brand, .nav-link {
   color: #fff !important;
+}
+.hero {
+  background: url('bio.png') center/cover no-repeat;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  flex-direction: column;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+.hero .btn {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 1.1rem;
 }
 .card {
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -25,6 +51,8 @@ p {
 footer {
   background-color: #283593;
   color: white;
+  margin-top: 30px;
+  padding: 20px 0;
 }
 .btn-primary {
   background-color: #6a1b9a;

@@ -1,0 +1,23 @@
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  color: #212529;
+}
+h1 {
+  color: #0d6efd;
+  margin-bottom: 20px;
+}
+p {
+  font-size: 1.1rem;
+}
+.navbar {
+  margin-bottom: 30px;
+}
+.card {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+footer {
+  background-color: #343a40;
+  color: white;
+}
